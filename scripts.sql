@@ -80,3 +80,7 @@ INSERT INTO lieux (placenom) VALUES
 ('yousoufia '),
 ('casa');
 
+INSERT INTO organisateurs (nom) VALUES
+('soufian'),
+('karim'),
+('issam');
