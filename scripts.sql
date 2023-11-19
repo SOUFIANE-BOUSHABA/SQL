@@ -141,7 +141,7 @@ SET montant = '500'
 WHERE id_retour = 1;
 
 
--- delete  
+-- delete   
 DELETE FROM billets
 WHERE id_billet = 1;
 
