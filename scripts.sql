@@ -84,3 +84,8 @@ INSERT INTO organisateurs (nom) VALUES
 ('soufian'),
 ('karim'),
 ('issam');
+
+INSERT INTO participants (nom, prenom) VALUES
+('said', 'saidi'),
+('khalid', 'khalidi'),
+('karim', 'karimi');
