@@ -105,3 +105,9 @@ INSERT INTO evenements (id_lieu, nom) VALUES
 (1, 'Event1'),
 (2, 'Event2'),
 (3, 'Event3');
+
+
+INSERT INTO billets (id_participant, id_evenement, id_retour, TypeBillet) VALUES
+(1, 1, 1, 'VIP'),
+(2, 2, 2, 'VIP1'),
+(3, 3, 3, 'VIP2');
