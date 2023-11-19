@@ -122,3 +122,8 @@ INSERT INTO sponsoriser (id_sponsor, id_evenement) VALUES
 (1, 1),
 (2, 2),
 (3, 3);
+
+
+SELECT evenements.*, lieux.placenom 
+FROM evenements 
+JOIN lieux  ON evenements.id_lieu = lieux.id_lieu;
