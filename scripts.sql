@@ -123,7 +123,7 @@ INSERT INTO sponsoriser (id_sponsor, id_evenement) VALUES
 (2, 2),
 (3, 3);
 
-
+-- evenements width lieu
 SELECT evenements.*, lieux.placenom 
 FROM evenements 
 JOIN lieux  ON evenements.id_lieu = lieux.id_lieu;
