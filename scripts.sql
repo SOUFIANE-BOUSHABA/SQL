@@ -94,3 +94,14 @@ INSERT INTO retours (montant) VALUES
 ('100'),
 ('200'),
 ('300');
+
+
+INSERT INTO sponsors (nom) VALUES
+('coca'),
+('samsung'),
+('sidi ali');
+
+INSERT INTO evenements (id_lieu, nom) VALUES
+(1, 'Event1'),
+(2, 'Event2'),
+(3, 'Event3');
