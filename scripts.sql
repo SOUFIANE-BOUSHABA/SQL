@@ -89,3 +89,8 @@ INSERT INTO participants (nom, prenom) VALUES
 ('said', 'saidi'),
 ('khalid', 'khalidi'),
 ('karim', 'karimi');
+
+INSERT INTO retours (montant) VALUES
+('100'),
+('200'),
+('300');
