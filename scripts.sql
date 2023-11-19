@@ -134,3 +134,9 @@ FROM organisé
 NATURAL JOIN organisateurs  
 JOIN evenements  ON organisé.id_evenement = evenements.id_evenement;
 
+
+--update  
+UPDATE retours
+SET montant = '500'
+WHERE id_retour = 1;
+
