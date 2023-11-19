@@ -75,5 +75,8 @@ CREATE table if not EXISTS sponsoriser (
 
 
 
-
+INSERT INTO lieux (placenom) VALUES
+('errachidia'),
+('yousoufia '),
+('casa');
 
