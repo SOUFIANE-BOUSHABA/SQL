@@ -111,3 +111,14 @@ INSERT INTO billets (id_participant, id_evenement, id_retour, TypeBillet) VALUES
 (1, 1, 1, 'VIP'),
 (2, 2, 2, 'VIP1'),
 (3, 3, 3, 'VIP2');
+
+
+INSERT INTO organisé (id_organisateur, id_evenement) VALUES
+(1, 1),
+(2, 2),
+(3, 3);
+
+INSERT INTO sponsoriser (id_sponsor, id_evenement) VALUES
+(1, 1),
+(2, 2),
+(3, 3);
