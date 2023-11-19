@@ -127,3 +127,10 @@ INSERT INTO sponsoriser (id_sponsor, id_evenement) VALUES
 SELECT evenements.*, lieux.placenom 
 FROM evenements 
 JOIN lieux  ON evenements.id_lieu = lieux.id_lieu;
+
+-- organisateur with event a organisé
+SELECT organisé.*, organisateurs.nom AS organisateur_nom, evenements.nom AS event_nom
+FROM organisé 
+NATURAL JOIN organisateurs  
+JOIN evenements  ON organisé.id_evenement = evenements.id_evenement;
+
